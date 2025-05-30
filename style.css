@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+.fullpage{
+width:50vw;
+height: 140vh;
+background-color: aquamarine;
+position: relative;
+left: 20%;
+top: 10%;
+border: 2px solid rgb(21, 21, 21);
+display: flex;
+}
+
+.leftside{
+    width:25vw;
+    height: 139.5vh;
+    background-color: #fff;
+    padding: 5%;
+
+}
+ .leftside .profile{
+    width:13vw;
+    height:26vh ;
+   border-radius: 50%;
+   border: 3px solid aquamarine;
+   box-shadow: 10px 0 20px #5e5d5d;
+   position: relative;
+   left: 5%;
+}
+.contact{
+    position:relative;
+    top: 2%;
+}
+
+.contact ul {
+    margin-right: 4%;
+    padding: 0%;
+}
+.contact ul li{
+    font-weight: 600;
+    line-height: 1.5rem;
+    list-style: none;
+}
+.contact ul li .logo{
+    width: 1vw;
+    margin-right: 3%;
+}
+.leftside .career{
+    margin-top: 10%;
+}
+ .career  p{
+    font-weight: 520;
+    line-height: 1.5rem;
+    text-align: justify;
+
+}
+span{
+    font-weight: 600;
+}
+.language{
+    position: relative;
+    top: 3%;
+}
+.language p{
+    display: inline;
+   
+   
+}
+ .language .limit{
+    width: 5vw;
+    height: 1.5vh;
+    background-color: rgb(0, 119, 255);
+    border-radius: 25px;
+    position: relative;
+    left: 25%;
+    bottom: 20%;
+    
+   
+    
+}
+.language .limit2{
+    width: 8vw;
+     
+    
+}
+.skill{
+    position: relative;
+    top: 6%;
+}
+.skill ul{
+    padding-left: 5%;
+}
+                                    /* <!-- -----------right-side------------ --> */
+.right-side{
+    padding: 5%;
+}
+.intro {
+    width: 25vw;
+}
+.intro h2{
+    color: rgb(66, 66, 66);
+}
+.edu{
+    
+    position: relative;
+    top: 5%;
+   
+}
+.edu h2{
+    margin-bottom: 4%;
+    background-color: #fff;
+    padding-left:2% ;
+}
+.edu p{
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: rgb(66, 66, 66);
+    margin-bottom: 4%;
+    line-height: 1.5rem;
+}
+.edu ul{
+   margin-left: 4.5%;
+}
+.edu ul li{
+    line-height: 1.5rem;
+}
+.b.com{
+    position: relative;
+    top: 10%;
+
+}
+.web {
+    position: relative;
+    top: 7%;
+
+}
+.web ul li{
+    font-weight: 600;
+}
+.prof{
+    position: relative;
+    top: 9%;
+}
+.intrest{ 
+    position: relative;
+    top: 13%;
+    
+}
+.edu ul{
+    position: relative;
+    top: 7%;
+}
+.edu ul img {
+    width: 5vw;
+   
+}
+
+                                                /*---------- media-work----- */
+
+                                                /* <!-- -----------left-side------------ --> */
+@media screen and (max-width: 770px) {
+    .fullpage{
+        width:94vW;
+        height: 100vh;
+       position: relative;
+        left: 0%;
+        margin: 2%;
+     }
+     h2{
+        font-size:1.1rem;
+     }
+     .leftside{
+        width:47vw;
+        height: 99.5vh;
+       padding: 3%;
+    
+    }
+    .leftside .profile{
+        width:34vw;
+        height:15vh ;
+      position: relative;
+       left: 10%;
+    }
+    .contact{
+        position:relative;
+        top: -0.1%;
+    }
+    .contact ul li .logo{
+        width: 5vw;
+        margin-right: 0%;
+        
+    }
+    .contact ul li{
+        font-size: 0.9rem;
+        
+    }
+    .contact ul {
+        padding: 0%;
+     }
+     .career  p{
+        font-weight: 520;
+        line-height: 1rem;
+    
+    }
+    
+ .language .limit{
+    width: 17vw;
+    position: relative;
+    left: 40%;
+    bottom: 20%;
+}
+.language .limit2{
+    width: 25vw;
+}
+.skill ul{
+    padding-left: 9%;
+}
+
+                            /* <!-- -----------right-side------------ --> */
+ .intro h1{
+    font-size: 1.8rem;
+ }  
+ .intro h2{
+    font-size: 0.9rem;
+ }  
+ .edu h2 {
+    font-size: 0.99rem;
+    font-weight: 800;
+ }   
+ .edu h3{
+    font-size: 0.85rem;
+ }   
+ .edu{
+    position: relative;
+    top: 2.4%;
+ }                 
+   
+}                                                        
